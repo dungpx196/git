@@ -1608,7 +1608,7 @@ static void wt_longstatus_print(struct wt_status *s)
 	const char *branch_status_color = color(WT_STATUS_HEADER, s);
 
 	if (s->branch) {
-		const char *on_what = _("On branch ");
+		const char *on_what = _("On branch - Hiện ở branch ");
 		const char *branch_name = s->branch;
 		if (!strcmp(branch_name, "HEAD")) {
 			branch_status_color = color(WT_STATUS_NOBRANCH, s);

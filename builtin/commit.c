@@ -42,7 +42,7 @@ static const char * const builtin_commit_usage[] = {
 };
 
 static const char * const builtin_status_usage[] = {
-	N_("git status [<options>] [--] <pathspec>..."),
+	N_("git statusdpx [<options>] [--] <pathspec>..."),
 	NULL
 };
 

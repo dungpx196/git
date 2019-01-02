@@ -791,10 +791,10 @@ static void update_refs_for_switch(const struct checkout_opts *opts,
 		if (!opts->quiet) {
 			if (old_branch_info->path && !strcmp(new_branch_info->path, old_branch_info->path)) {
 				if (opts->new_branch_force)
-					fprintf(stderr, _("Reset branch '%s'\n"),
+					fprintf(stderr, _("Reset branch- Khởi tạo lại branch '%s'\n"),
 						new_branch_info->name);
 				else
-					fprintf(stderr, _("Already on '%s'\n"),
+					fprintf(stderr, _("Already on - Hiện đã ở branch '%s'\n"),
 						new_branch_info->name);
 			} else if (opts->new_branch) {
 				if (opts->branch_exists)
@@ -802,7 +802,7 @@ static void update_refs_for_switch(const struct checkout_opts *opts,
 				else
 					fprintf(stderr, _("Switched to a new branch '%s'\n"), new_branch_info->name);
 			} else {
-				fprintf(stderr, _("Switched to branch '%s'\n"),
+				fprintf(stderr, _("Switched to branch- Chuyển sang branch '%s'\n"),
 					new_branch_info->name);
 			}
 		}
