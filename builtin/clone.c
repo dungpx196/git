@@ -40,7 +40,7 @@
  *
  */
 static const char * const builtin_clone_usage[] = {
-	N_("git clone [<options>] [--] <repo> [<dir>]"),
+	N_("git clonedpx [<options>] [--] <repo> [<dir>]"),
 	NULL
 };
 
